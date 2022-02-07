@@ -12,7 +12,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ErrorThree/Python-Economy/",
     packages=find_packages(),
-    install_requires=[''],
+    install_requires=['ipython>=6'],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
