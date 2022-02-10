@@ -44,6 +44,18 @@ class instance:
     f.write(json.dumps(unloadf))
 
 class value:
+  def newvalue(foldername, userdatajsonfilename, valuename, value):
+    userdatajsonfilename = str(userdatajsonfilename)
+    foldername = str(foldername)
+    valuename = str(valuename)
+    value = int(value)
+    f = open(f"{foldername}/{userdatajsonfilename}", "rt").read()
+    unloadf = json.loads(f)
+    unloadf.update({valuename: value})
+    os.remove(f"{foldername}/{userdatajsonfilename}")
+    f = open(f"{foldername}/{userdatajsonfilename}","x")
+    f.write(json.dumps(unloadf))
+  
   def changevalue(foldername, userdatajsonfilename, valuename, value):
     userdatajsonfilename = str(userdatajsonfilename)
     foldername = str(foldername)
@@ -55,7 +67,6 @@ class value:
     if valuename in unloadf:
       unloadf.update({valuename: value})
       fw.write(json.dumps(unloadf))
-
 
   def getvalue(foldername, userdatajsonfilename,valuename):
     userdatajsonfilename = str(userdatajsonfilename)
