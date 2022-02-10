@@ -1,3 +1,0 @@
-[build-system]
-requires = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
-build-backend = "economy.build_meta"
