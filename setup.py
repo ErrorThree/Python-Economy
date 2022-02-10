@@ -4,7 +4,7 @@ requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
     name="Economy.py",
-    version="0.0.2",
+    version="0.0.3",
     author="ErrorTwo",
     author_email="errortwoo@gmail.com",
     description="A package to simply create Economy/Bank",
