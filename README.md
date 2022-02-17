@@ -14,12 +14,12 @@
   To create a folder with a file inside
 
     from economy import economy
-    economy.bal.start(foldername, filename,   {"Variable": 0})
+    economy.bal.start(foldername, filename, {"Variable": 0})
     
     #To create just a file
     
     from economy import economy
-    economy.bal.start(None, filename,   {"Variable": 0})
+    economy.bal.start(None, filename, {"Variable": 0})
 
   If you have any issues: \
   https://github.com/ErrorThree/Python-Economy/issues
