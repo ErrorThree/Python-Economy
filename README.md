@@ -15,6 +15,10 @@
 
     from economy import economy
     economy.bal.start(foldername, filename,   {"Variable": 0})
+    
+    #To create just a file
+    from economy import economy
+    economy.bal.start(None, filename,   {"Variable": 0})
 
   If you have any issues: \
   https://github.com/ErrorThree/Python-Economy/issues
