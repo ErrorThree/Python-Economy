@@ -1,28 +1,31 @@
-# Python-Economy
-  Require to have Python 3.7 \
-  This python package is just to make save files easier.
+Python-Economy
+=
+Require to have Python 3.7 \
+This python package is just to make save files easier.
 
-  To install
-
+To install
+-
     # Windows
     pip install pythoneconomy
 
-  Example of how to start using it
+How to Import
+-
 
     from economy import economy
   
-  To create a folder with a file inside
+Quick Example
+-
 
     from economy import economy
-    economy.bal.start(foldername, filename, {"Variable": 0})
-    
+    economy.bal.start(foldername, filename,   {"Variable": 0})
+
     #To create just a file
     
     from economy import economy
     economy.bal.start(None, filename, {"Variable": 0})
 
-  If you have any issues: \
-  https://github.com/ErrorThree/Python-Economy/issues
+- If you have any issues: \
+https://github.com/ErrorThree/Python-Economy/issues
 
-  API Documentation: \
-  Coming Soon
+- API Documentation: \
+Coming Soon
